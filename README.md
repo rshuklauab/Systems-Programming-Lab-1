@@ -13,7 +13,7 @@ This program prompts the user to input an integer and determines whether the num
 - Familiarity with basic terminal commands is recommended.
 
 ### Compilation Instructions
-Save the source code to a file named odd_or_even.c or any .c filename of your choice.
+Save the source code to a file named odd_even.c or any .c filename of your choice.
 
 Open a terminal or command prompt in the directory where your file is located.
 
@@ -24,8 +24,8 @@ Compile the program using the following command:
 
 1 gcc: The compiler command.
 
-2 odd_or_even.c: The C source code file.
-3 -o odd_or_even: Specifies the name of the output executable.
+2 odd_even.c: The C source code file.
+3 -o odd_even: Specifies the name of the output executable.
 
 After running the command, an executable file named odd_even will be generated in the same directory.
 
@@ -39,11 +39,11 @@ Run the program using the following command:
 Follow the on-screen instructions to input a number.
 
 ``Example
-$ ./odd_or_even
+$ ./odd_even
 Enter a number: 4
 The number is an even number``
 
 ``Input: 7
-$ ./odd_or_even
+$ ./odd_even
 Enter a number: 7
 The number is an odd number``
